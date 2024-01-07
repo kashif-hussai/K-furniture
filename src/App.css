@@ -1,0 +1,243 @@
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+select {
+    border: none !important;
+
+
+}
+
+.hovar-fn:hover {
+    color: red !important;
+}
+
+.fn {
+    color: black !important;
+}
+
+
+
+.c-img-one {
+    background-image: url(./components/main_body/images/one.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+
+
+}
+
+.c-img-two {
+    background-image: url(./components/main_body/images/two.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+    background-size: contain;
+}
+
+.c-img-three {
+    background-image: url(./components/main_body/images/three.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+    background-size: contain;
+}
+
+
+
+
+
+
+/* Reset some default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    display: block;
+}
+
+/* Style the dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 4;
+    width: 180px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown links */
+.dropdown-content a {
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+   
+}
+
+
+
+
+
+.price {
+    color: red;
+    font-size: 19px;
+}
+
+
+.discound-price {
+    text-decoration-line: line-through;
+}
+
+
+
+.first-baner-card {
+    background-color: rgba(127, 255, 212, 0.2);
+    height: 370px;
+}
+
+
+.seacnd-baner-card {
+    background-color: rgba(250, 235, 215, 0.6);
+    height: 370px;
+}
+
+.shop-now-btn {
+    color: black;
+}
+
+
+.baner-img:hover {
+    height: 230px;
+
+
+
+}
+
+.baner-img-secand:hover {
+    height: 330px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .c-text-one {
+        font-size: 10px;
+        
+    }
+
+    .c-text-one-non{
+        font-size: 5px;
+    }
+
+    .c-text-two {
+        font-size: 10px;
+       
+    }
+
+    .c-text-twow {
+        font-size: 18px;
+      
+    }
+
+    .c-text-one-h1{
+        font-size: 18px;
+    }
+
+    .c-text-one-p{
+        font-size: 7px;
+    }
+
+    .dropdown-content-left{
+        width: auto;
+    }
+
+}
+
+
+
+
+
+.c-text-one{
+
+    margin-top: 11%;
+}
+
+.c-text-two{
+
+    margin-top: 13%;
+}
+
+.c-text-three{
+
+    margin-top: 13%;
+}
+
+
+
+
+.dropdown-content-left {
+    right: auto; 
+    left: 50px; 
+    transform: translateX(-100%); 
+    width: 20rem;
+}
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.loginBatan{
+    width: 20rem;
+}
+
+
+
+.about-client-color{
+   background-color: rgba(240, 128, 128,0.1)
+}
+
+
+.c-bg-color{
+    background-color: rgb(238, 218, 191) !important;
+}
+
+
+.c-bg-color-one {
+    background-color: rgba(173, 230, 225, 0.6)!important;
+}
